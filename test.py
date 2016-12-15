@@ -7,4 +7,4 @@ def stringify_bool(n):
 			return "false"
 
 
-#18<flavius> def stringify_bool(value): if value: return "true" else: return "false"
+#its
