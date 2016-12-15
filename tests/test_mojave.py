@@ -1,10 +1,11 @@
 import unittest
+import workingmojave
 
-n = 0
-x = 1
 
-def Stringify_bool_test(n, x):
-	if n + x == 1:
-		print('true')
-	else:
-		print ('false')
+
+
+class TestStringifyBool(unittest.TestCase):
+
+	def test_zero_zero_returns_true(self):
+
+		self.assertEquals("true", workingmojave.stringify_bool(0, 0))
