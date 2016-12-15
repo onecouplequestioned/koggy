@@ -1,7 +1,7 @@
 
 
-def stringify_bool(n):
-	if n + 1 == 1:
+def stringify_bool(n,x):
+	if n + x == 0:
 		return "true"
 	else:
 			return "false"
