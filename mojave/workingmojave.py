@@ -15,10 +15,10 @@ def det2x2(det2_list):
     if len(det2_list) != 4:
         return None
 
-    if len(det2_list) == 4:
-        a,b,c,d = det2_list[0], det2_list[1], det2_list[2], det2_list[3]
 
-        returnlist = [a,b,c,d]
+    a,b,c,d = det2_list[0], det2_list[1], det2_list[2], det2_list[3]
+
+    returnlist = [a,b,c,d]
 
 
     for i in returnlist:
