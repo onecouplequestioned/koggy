@@ -17,8 +17,6 @@ def det2x2(det2_list):
     f = [c,d]
     g = ((a * b)-(c*d))
 
-    print(e)
-    print(f)
     return g
 
 
@@ -30,9 +28,6 @@ def det3x3(det3_list):
     l = [g,h,i]
     m = (a * ((e * i)-(f * h))) - (b * ((d * i)-(f * g))) + (e * g)
 
-    print(j)
-    print(k)
-    print(l)
     return m
 
 
