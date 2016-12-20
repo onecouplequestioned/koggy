@@ -1,7 +1,4 @@
 
-
-
-
 def stringify_bool(n,x):
 	if n + x == 0:
 		return "true"
@@ -21,12 +18,8 @@ def det2x2(det2_list):
     for i in returnlist:
         if type(i) == str:
             return None
-
     g = ((a * b)-(c*d))
     return g
-
-
-
 
 
 def det3x3(det3_list):
@@ -38,8 +31,3 @@ def det3x3(det3_list):
     m = (a * ((e * i)-(f * h))) - (b * ((d * i)-(f * g))) + (e * g)
 
     return m
-
-
-#|A| = a(ei - fh) - b(di - fg) + c(dh - eg)
-
-#3×6 − 8×4 = 18 − 32 = −14
