@@ -14,7 +14,7 @@ class Det_2x2_Tests(unittest.TestCase):
         self.assertEqual(0, workingmojave.det2x2([-1, -1, -1, -1]))
 
     def testing_det2x2_invalid(self):
-        self.assertEqual(None, workingmojave.det2x2(["carrot", "waffles", "donuts", "parrots"]))
+        self.assertEqual(None, workingmojave.det2x2(["carrot", "waffles", "donuts", "parrots" ]))
         self.assertEqual(None, workingmojave.det2x2([2, 5, 2]))
         self.assertEqual(None, workingmojave.det2x2([2, 5,]))
         self.assertEqual(None, workingmojave.det2x2([2, ]))
