@@ -13,4 +13,4 @@ class Det_3x3_Tests(unittest.TestCase):
     def testing_det3x3_valid(self):
         self.assertEqual(None, workingmojave.det3x3(["barf", "tads", "shoes", "sonix", "fear", "beers", "wako", "loops", "shade"]))
         self.assertEqual(None, workingmojave.det3x3([0, 0, 0, 0, 0, 0, 0,]))
-        self.assertEqual(None, workingmojave.det3x3([-2]))
+        self.assertEqual(None, workingmojave.det3x3([2, ]))

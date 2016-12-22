@@ -7,6 +7,7 @@ class TestStringifyBool(unittest.TestCase):
     def test_zero_zero_returns_true(self):
         self.assertEqual("true", workingmojave.stringify_bool(0, 0))
 
+
 class Det_2x2_Tests(unittest.TestCase):
     def testing_det2x2_valid(self):
         self.assertEqual(-2, workingmojave.det2x2([3, 2, 4, 2]))
